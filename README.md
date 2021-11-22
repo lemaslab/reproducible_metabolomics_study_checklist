@@ -14,6 +14,7 @@
 
 - **Public repository used to deposit data:** MetaboLights
 - **Unique identifier of data deposited to a public repository:** MTBLS1
+- **Data analysis metadata:** MIDAS/
 - **Template used to present data in the manuscript:** Cell STAR★Methods
 - **Version control system used to share computational resource information:** GitHub
 - **Software names along with versions (if applicable) and URL used in the analysis:** ProteoWizard-msConvert (https://proteowizard.sourceforge.io/tools.shtml), MS-DIAL v4.46 (http://prime.psc.riken.jp/compms/msdial/main.html).
