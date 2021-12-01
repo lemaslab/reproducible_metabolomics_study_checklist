@@ -15,14 +15,15 @@
 
 - **Public repository used to deposit data:** MetaboLights
 - **Unique identifier of data deposited to a public repository:** MTBLS1
-- **Data analysis metadata:** MIDAS/
 - **Template used to present metadata in the manuscript:** Cell STAR★Methods
 - **Version control system used to share computational resource information:** GitHub
-- **Software names along with versions (if applicable) and URL used in the analysis:** ProteoWizard-msConvert (https://proteowizard.sourceforge.io/tools.shtml), MS-DIAL v4.46 (http://prime.psc.riken.jp/compms/msdial/main.html), 
+- **Used software names along with versions (if applicable) and URL used in the analysis:** ProteoWizard-msConvert (https://proteowizard.sourceforge.io/tools.shtml), MS-DIAL v4.46 (http://prime.psc.riken.jp/compms/msdial/main.html), 
 - **URL of shared project file:** https://s3.console.aws.amazon.com/s3/buckets/example
 - **URL of shared virtual machine or software container used for the analysis:** https://hub.docker.com/_/python
-- **Cloud computing platform used to run the analysis:** Amazon Elastic Compute Cloud
-- **Instance type ID used in the cloud computing platform:** t2.medium
+- **Model of runtime CPU: Intel Core i7
+- **Number of runtime CPU: 6
+- **Model runtime GPU: NVDIA GeForce GTX 980 Ti
+- **Number of runtime GPU: 2
 - **Ontology used for semantic annotation of the analysis workflow:** EDAM Ontology
 - **Tool used for workflow automation or literate programming:** Nextflow v20.07.1 (https://www.nextflow.io/index.html)
 - **Order of running workflow components:**
