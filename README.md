@@ -26,9 +26,10 @@
 - **Number of runtime GPU: 2
 - **Ontology used for semantic annotation of the analysis workflow:** EDAM Ontology
 - **Tool used for workflow automation or literate programming:** Nextflow v20.07.1 (https://www.nextflow.io/index.html)
-- **Order of running workflow components:**
-    1. Use ProteoWizard-msConvert to convert data from .RAW format to .mzML format, store the converted data to `data/` folder
-    2. Run Nextflow pipeline by typing the following command:
+- **Order of running workflow components (specify input and output of each step):**
+    1. Feed input data (.RAW format) to ProteoWizard-msConvert to convert data from to .mzML format, store the output to `data/` folder
+    2. Feed input data from last step to Nextflow pipeline by typing the following command, output will be stored to `results/` folder:
     ```
     nextflow main.nf
     ```
+    3. ...
